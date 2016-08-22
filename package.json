@@ -1,0 +1,24 @@
+{
+    "name ": "Gigaleet SCSS/Autoprefixer Kit",
+    "description": "Gigaleet SCSS/Autoprefixer Kit is a simple workflow using SCSS, Autoprefixer, and Source Map",
+    "Author": "Gigaleet",
+    "Contributors": [{
+        "nane": "David",
+        "email": "david@gigaleet.com"
+    }],
+    "private": true,
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "gulp-sass": "^2.0.0",
+        "gulp-sourcemaps": "^1.3.0",
+        "gulp-autoprefixer": "^3.1.0"
+    },
+    "scripts": {
+        "start": "gulp",
+        "package": "gulp prod"
+    },
+    "engines": {
+        "node": ">=0.12"
+    },
+    "license": "MIT"
+}
